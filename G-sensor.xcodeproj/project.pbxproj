@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5B171011D3CC8CC001809BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B171001D3CC8CC001809BE /* AppDelegate.swift */; };
+		F5B171031D3CC8CC001809BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B171021D3CC8CC001809BE /* ViewController.swift */; };
+		F5B171061D3CC8CC001809BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B171041D3CC8CC001809BE /* Main.storyboard */; };
+		F5B171081D3CC8CC001809BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5B171071D3CC8CC001809BE /* Assets.xcassets */; };
+		F5B1710B1D3CC8CC001809BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B171091D3CC8CC001809BE /* LaunchScreen.storyboard */; };
+		F5B171161D3CC8CC001809BE /* G_sensorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B171151D3CC8CC001809BE /* G_sensorTests.swift */; };
+		F5B171211D3CC8CC001809BE /* G_sensorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B171201D3CC8CC001809BE /* G_sensorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5B171121D3CC8CC001809BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5B170F51D3CC8CC001809BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5B170FC1D3CC8CC001809BE;
+			remoteInfo = "G-sensor";
+		};
+		F5B1711D1D3CC8CC001809BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5B170F51D3CC8CC001809BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5B170FC1D3CC8CC001809BE;
+			remoteInfo = "G-sensor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5B170FD1D3CC8CC001809BE /* G-sensor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "G-sensor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B171001D3CC8CC001809BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5B171021D3CC8CC001809BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5B171051D3CC8CC001809BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5B171071D3CC8CC001809BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5B1710A1D3CC8CC001809BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5B1710C1D3CC8CC001809BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5B171111D3CC8CC001809BE /* G-sensorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "G-sensorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B171151D3CC8CC001809BE /* G_sensorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G_sensorTests.swift; sourceTree = "<group>"; };
+		F5B171171D3CC8CC001809BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5B1711C1D3CC8CC001809BE /* G-sensorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "G-sensorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B171201D3CC8CC001809BE /* G_sensorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G_sensorUITests.swift; sourceTree = "<group>"; };
+		F5B171221D3CC8CC001809BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5B170FA1D3CC8CC001809BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B1710E1D3CC8CC001809BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B171191D3CC8CC001809BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5B170F41D3CC8CC001809BE = {
+			isa = PBXGroup;
+			children = (
+				F5B170FF1D3CC8CC001809BE /* G-sensor */,
+				F5B171141D3CC8CC001809BE /* G-sensorTests */,
+				F5B1711F1D3CC8CC001809BE /* G-sensorUITests */,
+				F5B170FE1D3CC8CC001809BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5B170FE1D3CC8CC001809BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5B170FD1D3CC8CC001809BE /* G-sensor.app */,
+				F5B171111D3CC8CC001809BE /* G-sensorTests.xctest */,
+				F5B1711C1D3CC8CC001809BE /* G-sensorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5B170FF1D3CC8CC001809BE /* G-sensor */ = {
+			isa = PBXGroup;
+			children = (
+				F5B171001D3CC8CC001809BE /* AppDelegate.swift */,
+				F5B171021D3CC8CC001809BE /* ViewController.swift */,
+				F5B171041D3CC8CC001809BE /* Main.storyboard */,
+				F5B171071D3CC8CC001809BE /* Assets.xcassets */,
+				F5B171091D3CC8CC001809BE /* LaunchScreen.storyboard */,
+				F5B1710C1D3CC8CC001809BE /* Info.plist */,
+			);
+			path = "G-sensor";
+			sourceTree = "<group>";
+		};
+		F5B171141D3CC8CC001809BE /* G-sensorTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5B171151D3CC8CC001809BE /* G_sensorTests.swift */,
+				F5B171171D3CC8CC001809BE /* Info.plist */,
+			);
+			path = "G-sensorTests";
+			sourceTree = "<group>";
+		};
+		F5B1711F1D3CC8CC001809BE /* G-sensorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5B171201D3CC8CC001809BE /* G_sensorUITests.swift */,
+				F5B171221D3CC8CC001809BE /* Info.plist */,
+			);
+			path = "G-sensorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5B170FC1D3CC8CC001809BE /* G-sensor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5B171251D3CC8CC001809BE /* Build configuration list for PBXNativeTarget "G-sensor" */;
+			buildPhases = (
+				F5B170F91D3CC8CC001809BE /* Sources */,
+				F5B170FA1D3CC8CC001809BE /* Frameworks */,
+				F5B170FB1D3CC8CC001809BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "G-sensor";
+			productName = "G-sensor";
+			productReference = F5B170FD1D3CC8CC001809BE /* G-sensor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5B171101D3CC8CC001809BE /* G-sensorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5B171281D3CC8CC001809BE /* Build configuration list for PBXNativeTarget "G-sensorTests" */;
+			buildPhases = (
+				F5B1710D1D3CC8CC001809BE /* Sources */,
+				F5B1710E1D3CC8CC001809BE /* Frameworks */,
+				F5B1710F1D3CC8CC001809BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5B171131D3CC8CC001809BE /* PBXTargetDependency */,
+			);
+			name = "G-sensorTests";
+			productName = "G-sensorTests";
+			productReference = F5B171111D3CC8CC001809BE /* G-sensorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5B1711B1D3CC8CC001809BE /* G-sensorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5B1712B1D3CC8CC001809BE /* Build configuration list for PBXNativeTarget "G-sensorUITests" */;
+			buildPhases = (
+				F5B171181D3CC8CC001809BE /* Sources */,
+				F5B171191D3CC8CC001809BE /* Frameworks */,
+				F5B1711A1D3CC8CC001809BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5B1711E1D3CC8CC001809BE /* PBXTargetDependency */,
+			);
+			name = "G-sensorUITests";
+			productName = "G-sensorUITests";
+			productReference = F5B1711C1D3CC8CC001809BE /* G-sensorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5B170F51D3CC8CC001809BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ChengRichie;
+				TargetAttributes = {
+					F5B170FC1D3CC8CC001809BE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F5B171101D3CC8CC001809BE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F5B170FC1D3CC8CC001809BE;
+					};
+					F5B1711B1D3CC8CC001809BE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F5B170FC1D3CC8CC001809BE;
+					};
+				};
+			};
+			buildConfigurationList = F5B170F81D3CC8CC001809BE /* Build configuration list for PBXProject "G-sensor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5B170F41D3CC8CC001809BE;
+			productRefGroup = F5B170FE1D3CC8CC001809BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5B170FC1D3CC8CC001809BE /* G-sensor */,
+				F5B171101D3CC8CC001809BE /* G-sensorTests */,
+				F5B1711B1D3CC8CC001809BE /* G-sensorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5B170FB1D3CC8CC001809BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B1710B1D3CC8CC001809BE /* LaunchScreen.storyboard in Resources */,
+				F5B171081D3CC8CC001809BE /* Assets.xcassets in Resources */,
+				F5B171061D3CC8CC001809BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B1710F1D3CC8CC001809BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B1711A1D3CC8CC001809BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5B170F91D3CC8CC001809BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B171031D3CC8CC001809BE /* ViewController.swift in Sources */,
+				F5B171011D3CC8CC001809BE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B1710D1D3CC8CC001809BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B171161D3CC8CC001809BE /* G_sensorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B171181D3CC8CC001809BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B171211D3CC8CC001809BE /* G_sensorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5B171131D3CC8CC001809BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5B170FC1D3CC8CC001809BE /* G-sensor */;
+			targetProxy = F5B171121D3CC8CC001809BE /* PBXContainerItemProxy */;
+		};
+		F5B1711E1D3CC8CC001809BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5B170FC1D3CC8CC001809BE /* G-sensor */;
+			targetProxy = F5B1711D1D3CC8CC001809BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5B171041D3CC8CC001809BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5B171051D3CC8CC001809BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5B171091D3CC8CC001809BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5B1710A1D3CC8CC001809BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5B171231D3CC8CC001809BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5B171241D3CC8CC001809BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5B171261D3CC8CC001809BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "G-sensor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aa.G-sensor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5B171271D3CC8CC001809BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "G-sensor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aa.G-sensor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5B171291D3CC8CC001809BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "G-sensorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aa.G-sensorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/G-sensor.app/G-sensor";
+			};
+			name = Debug;
+		};
+		F5B1712A1D3CC8CC001809BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "G-sensorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aa.G-sensorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/G-sensor.app/G-sensor";
+			};
+			name = Release;
+		};
+		F5B1712C1D3CC8CC001809BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "G-sensorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aa.G-sensorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "G-sensor";
+			};
+			name = Debug;
+		};
+		F5B1712D1D3CC8CC001809BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "G-sensorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aa.G-sensorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "G-sensor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5B170F81D3CC8CC001809BE /* Build configuration list for PBXProject "G-sensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B171231D3CC8CC001809BE /* Debug */,
+				F5B171241D3CC8CC001809BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5B171251D3CC8CC001809BE /* Build configuration list for PBXNativeTarget "G-sensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B171261D3CC8CC001809BE /* Debug */,
+				F5B171271D3CC8CC001809BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5B171281D3CC8CC001809BE /* Build configuration list for PBXNativeTarget "G-sensorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B171291D3CC8CC001809BE /* Debug */,
+				F5B1712A1D3CC8CC001809BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5B1712B1D3CC8CC001809BE /* Build configuration list for PBXNativeTarget "G-sensorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B1712C1D3CC8CC001809BE /* Debug */,
+				F5B1712D1D3CC8CC001809BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5B170F51D3CC8CC001809BE /* Project object */;
+}
